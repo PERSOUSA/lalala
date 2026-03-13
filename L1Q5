@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main(){
+
+
+        float p;
+        float a;
+        puts("idade? ");
+        scanf("%f", &a);
+        
+        getchar();
+        unsigned char B;
+        puts("sexo?(m/f) ");
+        scanf("%hhu", &B);
+        switch (B)   {
+            case 'm':
+                p = 72.7 * a - 58;
+            break;
+            case 'f':
+                p = 62.1 * a - 44.7;
+            break;
+            default:
+            puts("erro");
+        }
+
+
+        printf("PESO:%f\n", p);
+        
+        return 0;
+}
