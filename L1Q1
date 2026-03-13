@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+
+        int a;
+        puts("ENTRE COM VALOR: ");
+        scanf("%d", &a);
+
+        printf("%x .hexadecimal", a);
+        printf("%o. octal", a);
+
+        return 0;
+}
