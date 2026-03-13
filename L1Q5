@@ -11,7 +11,7 @@ int main(){
         getchar();
         unsigned char B;
         puts("sexo?(m/f) ");
-        scanf("%hhu", &B);
+        scanf("%c", &B);
         switch (B)   {
             case 'm':
                 p = 72.7 * a - 58;
